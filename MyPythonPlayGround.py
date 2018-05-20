@@ -1,24 +1,17 @@
 class MyPythonPlayGround:
-    # Simple Python Playground
-    #
-
-    # output to console
-    print("Hello Arty")
+    # Integers and Floats
+    # The format here is: Variable Name = Variable Value
+    answer = 42
 
 
-    # method definition
-    def meth():
-        print("I'm in a method")
+    # We can also have floats
+    pi = 3.14159
 
 
-    # None = because the method has not return Type
-    print(meth())
+    # Don't worry about conversion
+    print(answer + pi) # 45.14159
 
 
-    # Method with param
-    def printName(x):
-        return "Hello " + x
-
-
-    # Pass name as value.
-    print(printName("Artemas"))
+    # Casting
+    int(pi) == 3
+    float(answer) == 42.0
