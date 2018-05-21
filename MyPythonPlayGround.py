@@ -28,3 +28,12 @@ class MyPythonPlayGround:
     machine = "HAL"
     print("Nice to meet you {0}. I am {1}".format(name, machine))
     print(f"Nice to meet you {name}. I am {machine}")  # Notice the 'f' at the beginning of the String
+
+    # Boolean and None
+    python_course = True
+    java_course = False
+    print(int(python_course))  # 1
+    print(int(java_course))  # 0
+    print(str(python_course))  # "True"
+
+    aliens_found = None  # None == null in other languages.
