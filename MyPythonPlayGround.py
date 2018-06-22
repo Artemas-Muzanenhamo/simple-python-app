@@ -66,3 +66,4 @@ class MyPythonPlayGround:
     a = 1
     b = 2
     print("bigger" if a > b else "smaller")
+    print("smaller" if a or b else "There is nothing")
